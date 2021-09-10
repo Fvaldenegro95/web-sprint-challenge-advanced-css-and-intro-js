@@ -305,7 +305,7 @@ function addArtist(array) {
   genre: 'Web Design', 
   nationality: 'Chilean American',
   bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempor aliquet risus nec tincidunt. Curabitur id finibus augue. Donec sed diam purus. Vestibulum dignissim placerat magna sit amet mollis.'})
-  return array
+  return array;
 }
 
 

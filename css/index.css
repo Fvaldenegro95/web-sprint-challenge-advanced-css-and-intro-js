@@ -139,12 +139,14 @@ button:hover{
 @media(max-width:500px){
     .title-container div{
         width:100%;
+        display:flex;
+        text-align:center;
     }
 header .nav{
     margin-top: 50%;
 }
 .artist img {
-    max-height:20vh;
+    max-height:40vh;
 }
 nav a {
     font-size: 2rem;
@@ -158,4 +160,13 @@ span{
 .title-container hr{
     width:100%;
 }
+.artists-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.artist{
+    width: 100%;
+}
+
+
 }
